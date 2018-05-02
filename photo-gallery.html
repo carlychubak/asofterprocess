@@ -23,5 +23,10 @@ images:
     title: Projection of Interpolations onto the YZ Plane
   - image_path: /images/ylke.jpeg
     title: Ylke
-
 ---
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
