@@ -1,9 +1,34 @@
 ---
 layout: default
-title: A Softer Process
+images:
+  - image_path: /asofterprocess/images/alveoli.jpeg
+    title: Alveoli
+  - image_path: /asofterprocess/images/ecdysisI.jpeg
+    title: Ecdysis I
+  - image_path: /asofterprocess/images/ecdysisII.jpeg
+    title: Ecdysis II
+  - image_path: /asofterprocess/images/felt.jpeg
+    title: Felt
+  - image_path: /asofterprocess/images/feltmini.jpeg
+    title: Error Analysis
+  - image_path: /asofterprocess/images/interpolations.jpeg
+    title: Interpolations
+  - image_path: /asofterprocess/images/interpolationscouch.jpeg
+    title: Interpolations
+  - image_path: /asofterprocess/images/nodules.jpeg
+    title: Nodules
+  - image_path: /asofterprocess/images/nodules2.jpeg
+    title: Nodules
+  - image_path: /asofterprocess/images/projection.jpeg
+    title: Projection of Interpolations onto the YZ Plane
+  - image_path: /asofterprocess/images/ylke.jpeg
+    title: Ylke
 ---
-<ul class="photo-gallery">
+A SOFTER PROCESS
+Soft sculpture for home decor & accessorizing designed and made by Carly Chubak in Los Angeles, CA.
+
+<ul class="photo-gallery" style="list-style-type:none">
   {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" width="300"/></li>
   {% endfor %}
 </ul>
