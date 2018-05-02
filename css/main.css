@@ -72,17 +72,17 @@ ul.entries li {
   width: 300px;
 }
 
-.photo-gallery, .photo-gallery li {
+ul.photo-gallery, ul.photo-gallery li {
 	list-style: none;
 	padding: 0;
 }
 
-.photo-gallery li {
+ul.photo-gallery li {
 	display: inline-block;
 	width: 33%;
 }
 
-.photo-gallery li img {
+ul.photo-gallery li img {
 	width: 100%;
 }
 
