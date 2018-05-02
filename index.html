@@ -2,9 +2,10 @@
 layout: default
 title: A Softer Process
 ---
-
+<div class="blurb">
 <ul class="photo-gallery">
   {% for image in page.images %}
     <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
   {% endfor %}
 </ul>
+</div>
