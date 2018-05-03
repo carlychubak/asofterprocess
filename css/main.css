@@ -49,6 +49,9 @@ footer {
     font-size: .8em;
 }
 
+.photo-gallery, .photo-gallery li {
+	list-style: none;
+	padding: 0;
 
 
 
