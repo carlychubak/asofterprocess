@@ -75,17 +75,4 @@ ul.entries li {
   width: 300px;
 }
 
-ul.photo-gallery, ul.photo-gallery li {
-	list-style: none;
-	padding: 0;
-}
-
-ul.photo-gallery li {
-	display: inline-block;
-	width: 33%;
-}
-
-ul.photo-gallery li img {
-	width: 100%;
-}
 
