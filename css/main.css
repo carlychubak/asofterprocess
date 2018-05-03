@@ -4,7 +4,7 @@ body {
     max-width: 700px;
     padding: 12px;
     padding-bottom:0;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (min-width: 481px) {
@@ -12,12 +12,12 @@ body {
     padding-top: 24px;
     padding-right: 24px;
     padding-left: 24px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -36,43 +36,19 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     font-size: 1em;
     line-height: 1.2em;
     color: #333;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    list-style: none;
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 
-ul.posts li {
-    list-style: none;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    list-style-type: none;
-}
-
-ul.entries img {
-  width: 300px;   /*height or width? */
-  }
-  
-ul.entries li {
-  list-style-type: none;
-  position: relative;
-  margin: 20px auto;
-  padding: 5px;
-  background: #000000; /*frame col of portfolio list */
-  width: 300px;
-}
 
 
